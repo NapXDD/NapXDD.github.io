@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="crypto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="crypto.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar-container">
+      <div class="navbar-content">
+        <div class="logo-icon-container">
+          <div class="logo-icon-content navbar">
+            <a href="/index.html"><i class="fa-brands fa-bitcoin fa-2xl"></i></a>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <div class="crypto-page navbar">
+            <a href="/pages/crypto/crypto.html">Crypto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="search-form-container">
+      <form action="" class="search-form">
+        <div class="search-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="search-input" />
+        </div>
+      </form>
+    </div>
+    <div class="coins-list-container">
+      <div class="coins-list"></div>
+    </div>
+    <a href="#" class="back-to-top"><img src="/asset/backToTop.png" alt="back to top"></a>
+    <footer class="crypto-footer-container">
+      <div class="footer-content">
+        <p>Hello, here is the crypto realtime's space!</p>
+        <p>contact email: khoadole21@gmail.com</p>
+      </div>
+    </footer>
+  </body>
+  <script src="/component/card/coinCard.js" type="module"></script>
+  <script src="coinList.js" type="module"></script>
+  <script src="/utilities/getCoins.js" type="module"></script>
+  <script src="/utilities/searchCoin.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+</html>

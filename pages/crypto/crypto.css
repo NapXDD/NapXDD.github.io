@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coin-logo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 56.25%;
+}
+
+.coin-card-container{
+    padding: 16px;
+    width: 350px;
+    box-shadow: 0rem 0rem 1rem black;
+    background-color: #1b1b2f;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.coin-card-content{
+    padding: 1rem;
+    transition: all 500ms;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.coin-name{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+.lastest-price{
+    color: #f2a365;
+    font-size: 16px;
+}
+
+.info-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin-infos-container{
+    padding: 16px;
+    font-size: 14px;
+}
+
+.info-title{
+    color: white;
+}
+
+.info-value{
+    color: #f2a365;
+}
+
+.coin-card-container a{
+    text-decoration: none;
+}
+
+.coin-card-content:hover{
+    background-color: #323256;
+}
+
+.coins-list{
+    width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: #fff;
+}
+
+.coins-list-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.crypto-container{
+    position: relative;
+}
+
+body{
+    background-color: #162447;
+}
+
+.search-form-container{
+    padding-top: 100px;
+}
+
+.crypto-footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    opacity: 0;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input{
+    border-radius: 10px;
+    height: 50px;
+    font-size: 24px;
+}
+
+#search-input{
+    text-indent: 50px;
+    width: 1100px;
+}
+
+.search-icon{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+
+.search-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crypto-footer-empty{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
+html.crypto::-webkit-scrollbar{
+    display: none;
+}
+
+.crypto-page.navbar a{
+    color: #307af7
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.back-to-top img{
+    width: 45px;
+    background-color: #7C7C7C;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1125px) and ((min-width: 740px)){
+    #search-input{
+        text-indent: 50px;
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    #search-input{
+        text-indent: 50px;
+        width: 360px;
+    }
+}
